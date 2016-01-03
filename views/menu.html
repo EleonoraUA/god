@@ -1,0 +1,16 @@
+ <link rel="stylesheet" href="http://localhost/web/4/god/views/index.css">
+
+<div class="nav">
+<ul>
+<?php
+for ($i = 0; $i < count($data); $i++) {
+?><li><a class=<?php if ($data[$i] === "contact" || $data[$i] === "RSS" || $data[$i] === "FAQ") echo 'ex'; else echo 'js'?> href="http://localhost/web/4/god/main/<?php echo $data[$i]?>">
+<?php echo $data[$i]?>
+</a></li>
+<?php } ?>
+
+</header>
+<hr/>
+<script src="/web/4/god/views/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="http://localhost/web/4/god/views/script.js"></script>
+ <div class="content">

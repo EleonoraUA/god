@@ -1,0 +1,41 @@
+header ul li a {
+    position: absolute;
+    list-style: none;
+    width:14%;
+    margin-top:-3%;
+    margin-left: 30%;
+    text-decoration: none;
+    color: black;
+    display:inline;
+    font-family: "century gothic";
+    font-size: 20px;
+}
+a:hover {
+    text-decoration: underline;
+}
+li{
+    line-height: 40px;
+    display: inline;
+    height: 32px;
+}
+
+
+header a{
+    margin-left:90%;
+    margin-top: 13%;
+    text-decoration: none;
+    color:darkslateblue;
+}
+
+.question {
+        border:2px solid rgba(255,0,0,0.5);
+        background-color: rgba(255,0,0,0.1);
+       }
+
+       .question {
+        width:30%;
+        padding:10 10 10 10px;
+        margin-left:12%;
+        margin-top:3%;
+        border-radius: 2%;
+       }

@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+header {
+    margin-left: 24%;
+    height:18%;
+    width:70%;
+    margin-top:1%;
+    background-repeat: no-repeat;
+}
+
+.nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+	width:90%;
+    margin-top:-4%;
+    margin-left: 1%;
+    z-index:1000;
+}
+.fixed{
+    position: fixed; top: 0px;
+}
+hr {
+    border: 0;
+    position: relative;
+    height: 12px;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    margin-top:-3%;
+    margin-bottom: 7%;
+}
+.nav li {
+    line-height: 40px;
+    height: 30px;
+    padding-left: 0.34%;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    transition: .3s background-color;
+    border-top: 5px solid white;
+    font-family: "century gothic";
+    font-size: 20px;
+
+}
+
+.nav a:hover {
+    border-top: 5px solid rgb(59,123,246);
+}
+@media screen and (min-width: 600px) {
+    .nav li {
+        width: 120px;
+        border-bottom: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.4em;
+    }
+    .nav li {
+        display: inline-block;
+        margin-right: -4px;
+    }
+}
+
+footer {
+    width:80%;
+    height: 30%;
+    border: 1px dotted rgba(100,30,0,0.2);
+    margin-left: 10%;
+    margin-bottom:5%;
+    background-image: url("img/footer.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-top:none;
+}
+
+.content {
+    background-color: white;
+    width:80%;
+    margin-left: 10%;
+    border: 1px dotted rgba(0,0,0,0.2);
+}
+
+form {
+    width:90%;
+    height: 80%;
+    background-color: white;
+    border:1px dotted darkslateblue;
+    padding:2%;
+    margin-left: 2%;
+    margin-top: 5%;
+    border-radius: 5%;
+}
+
+input {
+    padding: 1%;
+    width: 50%;
+    height: 8%;
+    border: 1px solid rgb(59,123,246);
+    box-shadow: 0 0 3px rgba(59,123,246, 1);
+}
+
+input, textarea, label {
+    margin-left: 25%;
+
+}
+
+textarea {
+    border: 1px solid rgb(59,123,246);
+    box-shadow: 0 0 3px rgba(59,123,246, 1);
+}
+
+label {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+}
+
+input[type="submit"]
+{
+    width:20%;
+    height:10%;
+    background-color: azure;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.error {
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.7em;
+    color:red;
+}
+
+.text_hendo {
+    font-size: 18px;
+    font-family: "Lato","Helvetica Neue",Helvetica,sans-serif;
+    color: darkgray;
+    text-align: left;
+    line-height: 1.7;
+    width:90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+img {
+    width:90%;
+    height:80%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+img[alt="greg"] {
+    height:60%;
+    margin-bottom: 5%;
+}
+img[alt="main"] {
+    margin-bottom: 5%;
+    margin-top:1%;
+}
+
+iframe {
+    margin-left:23%;
+    margin-bottom: 5%;
+    width:40%;
+    height:40%;
+}
+
+img[alt="hendo"]
+{
+    height:120px;
+    max-height: 120px;
+    max-width: 176px;
+    width:176px;
+    margin-left: -16%;
+    margin-top: 0%;
+    position: absolute;
+}
+
+img[alt="404"]
+{
+    margin-left:500px;
+}
+
+.loh {
+    position: fixed;
+    margin-top:0%;
+    margin-left: 68%;
+    text-decoration: none;
+    font-family: "century gothic";
+    color: rgb(59,123,246);
+    font-size:0.8em;
+    background-color: white;
+}
+
+.loh:hover
+{
+    text-decoration: underline;
+}
+
+#container{
+    display: none;
+    opacity: 0.8;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 16px;
+    background-color: rgba(1, 1, 1, 0.725);
+    z-index: 100;
+    overflow: auto;
+}
+
+#signForm{
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    display: none;
+    background: #fff;
+    z-index: 200;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 16px;
+    border-radius: 4%;
+}
+
+#close {
+    height:30px;
+    width:30px;
+    margin-left:95%;
+    margin-top: -2%;
+
+}
+#RForm{
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    display: none;
+    background: #fff;
+    z-index: 200;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 16px;
+    border-radius: 4%;
+}
+#containerR{
+    display: none;
+    opacity: 0.8;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 16px;
+    background-color: rgba(1, 1, 1, 0.725);
+    z-index: 100;
+    overflow: auto;
+}
+ a[name='wo']:hover{
+    text-decoration: underline;
+ }
+
+ a[name='new'] {
+    position: absolute;
+    margin-left:45%;
+ }
+
+ .ex {
+    color: yellow;
+ }

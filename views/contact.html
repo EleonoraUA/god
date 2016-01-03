@@ -1,0 +1,16 @@
+<form id="form_contact" method="post" action="">
+    <label class = "lbl">Name: <br/><input type="text" placeholder="Enter your name" name="name" value='<?php echo $_SESSION['name'];?>'>
+    <span class="error">*<?php echo $nameErr ?></span> <br /><br/></label>
+
+    <label class = "lbl">E-mail: <br/><input type="text" placeholder="Enter your e-mail" name="email" value='<?php echo $_SESSION['email'];?>'>
+    <span class="error">*<?php echo $emailErr ?></span><br /><br/></label>
+
+    <label class = "lbl">Your message: <br/><textarea required form="form" cols="40" rows="6" name="text" placeholder="Enter your message"></textarea>
+    <span class="error">*<?php echo $textErr ?></span><br/><br/></label>
+
+    <input type="submit" value="OK">
+    <?php
+    if ((strlen($name) > 1) && (isset($email)) && $valid1 && $valid2 ) echo "Thank you, ".$name." for filling this form";
+    ?>
+
+</form>

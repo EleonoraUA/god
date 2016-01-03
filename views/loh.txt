@@ -1,0 +1,4 @@
+$.post("http://localhost/web/4/god/core/ajax.php", { item: "physics" })
+		.done(function(result) {
+			alert(result);
+		});
