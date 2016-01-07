@@ -21,7 +21,7 @@ $(document).ready(function(){
         $.ajax({
             type: 'POST',
             dataType: 'json',
-            url: "http://localhost/web/4/god/core/fo rm.php",
+            url: "http://localhost/web/4/god/core/form.php",
             data: $(this).serialize(),
             success: function(result) {
                if (result.admin == 1) window.location.href = 'http://localhost/web/4/god/admin';

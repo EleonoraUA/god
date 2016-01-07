@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<posts>
+  <document>
+    <link>http://localhost/web/4/god/main/hendo</link>
+    <title>hendo</title>
+    <short></short>
+  </document>
+  <document>
+    <link>http://localhost/web/4/god/main/home</link>
+    <title>home</title>
+    <short>The rise of the hoverboard</short>
+  </document>
+</posts>

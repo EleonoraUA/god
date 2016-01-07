@@ -11,7 +11,7 @@ for ($i = 1; $i < $pages + 1; $i++) { ?>
 $i = $start;
     while ($row = mysql_fetch_array($array))
     {
-        $delete = $row['email'];
+       // $delete = $row['email'];
         echo "<ul class='mess'>";
         echo "<li>";
         echo "<div class='question'>".++$i.". "."<b>Name:</b> ".$row['name']."<br/>";
