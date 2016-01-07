@@ -6,7 +6,7 @@
  * Date: 07.01.2016
  * Time: 17:28
  */
-class Model_Profile
+class Model_Profile extends Model
 {
 
 }

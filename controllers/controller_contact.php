@@ -6,7 +6,6 @@ class Controller_contact extends Controller_main
 	
 	function action_index()
 	{
-		
 		$this->model = new Model_contact();
 		$this->model->generate('template_view.php');
 	}

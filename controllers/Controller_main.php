@@ -1,7 +1,7 @@
 <?php
 require_once("models/Model_contact.php");
 require_once("models/Model_FAQ.php");
-error_reporting(0);
+error_reporting(E_ALL);
 class Controller_Main extends Controller
 {
 

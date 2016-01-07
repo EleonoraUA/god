@@ -9,12 +9,13 @@
     <?php
     session_start();
     if (!isset($_SESSION['name'])) { ?>
-        <a class = "loh" name=\"reg\" href = "http://localhost/web/4/god/login" onclick=\"popUp()\">Sign in</a><br/><br/>
-        <a class = "loh" name=\"reg\" href = \"#\" onclick=\"popUpR()\">Registration</a>
+        <a class = "loh" name=\"reg\" href = "http://localhost/web/4/god/login" onclick="popUp()">Sign in</a><br/><br/>
+        <a class = "loh" name=\"reg\" href = \"#\" onclick="popUpR()">Registration</a>
 <?php
     } 
     else {?> 
-    <a class="loh" name='reg' href = "http://localhost/web/4/god/login/out">Sign out</a><br/><br/> 
+    <a class="loh" name='reg' href = "http://localhost/web/4/god/login/out">Sign out</a><br/><br/>
+    <a class="loh" name='reg' href = "/web/4/god/profile/view">Profile</a><br/><br/>
     <?php } ?>
     
     
