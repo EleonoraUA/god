@@ -16,7 +16,7 @@ header {
     text-align: center;
     padding: 0;
 	width:90%;
-    margin-top:-9%;
+    margin-top:-7%;
     margin-left: 1%;
     z-index:1000;
 }
@@ -50,25 +50,24 @@ hr {
 
 .profile_link {
     list-style: none;
-    padding: 0;
-    margin-left: 1%;
-    display: inline;
+    margin-left: 5%;
+    margin-top: 3%;
 }
 
 .profile_link li {
     display: inline;
-    height: 30px;
-    padding-left: 0.34%;
-    position: absolute;
+    padding-left: 2.34%;
 }
 
 .profile_link a {
     text-decoration: none;
     color: black;
     transition: .3s background-color;
-    border-top: 5px solid white;
     font-family: "century gothic";
     font-size: 20px;
+}
+.profile_link a:hover {
+    color:rgb(59,123,246);
 }
 
 .nav a:hover {
@@ -107,24 +106,9 @@ footer {
     border: 1px dotted rgba(0,0,0,0.2);
 }
 
-form {
-    width:90%;
-    height: 80%;
-    background-color: white;
-    border:1px dotted darkslateblue;
-    padding:2%;
-    margin-left: 2%;
-    margin-top: 5%;
-    border-radius: 5%;
-}
 
-input {
-    padding: 1%;
-    width: 50%;
-    height: 8%;
-    border: 1px solid rgb(59,123,246);
-    box-shadow: 0 0 3px rgba(59,123,246, 1);
-}
+
+
 
 input, textarea, label {
     margin-left: 25%;
@@ -141,14 +125,6 @@ label {
     font-size: 1.2em;
 }
 
-input[type="submit"]
-{
-    width:20%;
-    height:10%;
-    background-color: azure;
-    border-radius: 10%;
-    cursor: pointer;
-}
 
 .error {
     font-family: 'Oswald', sans-serif;
@@ -209,13 +185,23 @@ img[alt="404"]
 
 .loh {
     position: fixed;
-    margin-top:0%;
+    margin-top:2%;
     margin-left: 68%;
     text-decoration: none;
     font-family: "century gothic";
     color: rgb(59,123,246);
     font-size:0.8em;
     background-color: white;
+}
+
+.prof {
+    position: absolute;
+    margin-left: 68%;
+    margin-top:-2%;
+    text-decoration: none;
+    font-family: "century gothic";
+    color: rgb(59,123,246);
+    font-size:0.8em;
 }
 
 .loh:hover
@@ -300,3 +286,60 @@ img[alt="404"]
  .ex {
     color: yellow;
  }
+
+ .profile_photo {
+     margin-left: 5%;
+     margin-top: -4%;
+     max-width: 200px;
+
+ }
+
+ .photo {
+     max-width: 100%;
+     float: left;
+     border-radius: 2%;
+     height: auto;
+     box-shadow: 7px 7px 31px -10px rgba(107,107,107,1);
+ }
+
+ .profile_name {
+     font-family: "century gothic";
+     color: rgb(59,123,246);
+     margin-left: 23%;
+     margin-top: 7.5%;
+     font-size:20px;
+ }
+
+.profile_contact {
+    font-variant: small-caps;
+    font-family: "century gothic";
+    color: black;
+    margin-left: 23%;
+    margin-top: 1%;
+    font-size:15px;
+}
+
+.about_text {
+    font-family: 'Arial';
+    font-size:13px;
+}
+
+.profile_contact input
+{
+    width:120px;
+    height:30px;
+    background-color: rgba(59,123,246, 0.6);
+    margin-left: 0%;
+}
+
+.add_send {
+    color: darkblue;
+    font-weight: bold;
+    background-color: ivory;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+.add_send:hover {
+    background-color: gold;
+}

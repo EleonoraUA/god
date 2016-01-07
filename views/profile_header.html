@@ -7,11 +7,11 @@
 <header>
     <img alt="hendo" src="http://localhost/web/4/god/views/hendo.png"/>
     <ul class="profile_link">
-        <li><a href="">Home</a></li>
-        <li><a href="">Friends</a></li>
+        <li><a href="/web/4/god/main/home">Home</a></li>
+        <li><a href="/web/4/god/profile/all">Users</a></li>
         <li><a href="">Settings</a></li>
     </ul>
-    <a class="loh" name='reg' href = "http://localhost/web/4/god/login/out">Sign out</a><br/><br/>
-    <a class="loh" name='reg' href = "/web/4/god/profile/view">Profile</a><br/><br/>
+    <a class="loh" name='reg' href = "http://localhost/web/4/god/login/out">Sign out</a>
+    <a class="prof" name='reg' href = "/web/4/god/profile/view/?who=<?php echo $_SESSION['name']?>">Profile</a><br/><br/>
 </header>
 <hr/>

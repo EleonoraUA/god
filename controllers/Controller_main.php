@@ -1,7 +1,7 @@
 <?php
 require_once("models/Model_contact.php");
 require_once("models/Model_FAQ.php");
-error_reporting(E_ALL);
+error_reporting(0);
 class Controller_Main extends Controller
 {
 
@@ -14,13 +14,13 @@ class Controller_Main extends Controller
 		if (isset($routes[5]) || $routes[4] === "login") {
 			$data = $this->model->get_data();
 			$content = $this->model->get_content($routes[5]);
-			$topic = explode('.', $routes[5]);			
+			$topic = explode('.', $routes[5]);
 			$this->view->generate('main_view.php', 'template_view.php', $data,$content[0]);
 		}
 	}
-	
+
 	function action_index() {
-		
+
 		$data = $this->model->get_data();
 		$this->view->generate('main_view.php', 'template_view.php', $data);
 	}
@@ -48,5 +48,5 @@ class Controller_Main extends Controller
 		require_once("views/rss.php");
 	}
 
-	
+
 }

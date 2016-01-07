@@ -9,8 +9,9 @@ class Controller_Login extends Controller_main
 			$email = $_POST['email'];
 			$password =$_POST['password'];
 			$this->model = new Model_login();
-			$session = $this->model->get_data($email, $password);
-			$this->view->generate('template_view.php', $session);
+			$this->model->setId($email);
+			$this->model->get_data($email, $password);
+			$this->view->generate('template_view.php');
 		} else {
 			$this->view->generate('login_view.php');
 		}
@@ -19,6 +20,7 @@ class Controller_Login extends Controller_main
 	function action_out()
 	{
 		session_destroy();
+		unset($_SESSION);
 		header("Location: http://localhost/web/4/god/main/home");
 	}
 }

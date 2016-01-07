@@ -15,7 +15,6 @@
     } 
     else {?> 
     <a class="loh" name='reg' href = "http://localhost/web/4/god/login/out">Sign out</a><br/><br/>
-    <a class="loh" name='reg' href = "/web/4/god/profile/view">Profile</a><br/><br/>
+    <a class="loh" name='reg' href = "/web/4/god/profile/view/?who=<?php echo $_SESSION['name']?>">Profile</a><br/><br/>
     <?php } ?>
-    
-    
+

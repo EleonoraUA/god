@@ -8,3 +8,21 @@
 
         <input type="submit" value="OK">
  </form>
+
+ <style>
+     input {
+         padding: 1%;
+         width: 50%;
+         height: 8%;
+         border: 1px solid rgb(59,123,246);
+         box-shadow: 0 0 3px rgba(59,123,246, 1);
+     }
+ input[type="submit"]
+ {
+ width:20%;
+ height:10%;
+ background-color: azure;
+ border-radius: 10%;
+ cursor: pointer;
+ }
+ </style>
