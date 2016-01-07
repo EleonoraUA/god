@@ -81,7 +81,7 @@ footer {
     background-color: white;
     width:80%;
     margin-left: 10%;
-    border: 0px dotted rgba(0,0,0,0.2);
+    border: 1px dotted rgba(0,0,0,0.2);
 }
 
 form {
