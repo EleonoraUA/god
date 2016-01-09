@@ -294,6 +294,18 @@ img[alt="404"]
 
  }
 
+.profile_photo_all {
+    margin-left: 5%;
+    margin-top: -4%;
+    max-width: 80px;
+}
+.profile_name_all {
+    font-family: "century gothic";
+    color: rgb(59,123,246);
+    margin-left: 23%;
+    margin-top: 0%;
+    font-size:20px;
+}
  .photo {
      max-width: 100%;
      float: left;
@@ -309,6 +321,18 @@ img[alt="404"]
      margin-top: 7.5%;
      font-size:20px;
  }
+
+.profile_name_friend a{
+    text-decoration: none;
+    font-family: "century gothic";
+    color: rgb(59,123,246);
+    margin-left: 3%;
+    margin-top: 10%;
+    font-size:15px;
+}
+.profile_name_friend {
+    margin-top: 5%;
+}
 
 .profile_contact {
     font-variant: small-caps;
@@ -342,4 +366,80 @@ img[alt="404"]
 
 .add_send:hover {
     background-color: gold;
+}
+
+.friends {
+    border-left: 1px solid #A0A0A0;
+    margin-left: 50%;
+    margin-top: -8%;
+    width: 600px;
+    min-height: 300px;
+}
+
+.friends hr {
+    border: 0;
+    margin-top: 0%;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.profile_photo_friend {
+    margin-left: 5%;
+    margin-top: 5%;
+    max-width: 70px;
+}
+.profile_photo_friend img {
+    border-radius: 10%;
+}
+
+.your_friends {
+    font-family: "century gothic";
+    font-variant: small-caps;
+    color: black;
+    font-size:17px;
+    margin-left: 45%;
+}
+
+.p_n {
+    margin-top: 4%;
+    min-height: 50px;
+}
+
+.select_mail {
+    margin-top: -7%;
+    min-height: 10%;
+    width: 200px;
+    border-right: 1px solid #A0A0A0;
+    border-bottom: 1px solid #A0A0A0;
+    border-top: 1px solid #A0A0A0;
+}
+
+.send{
+    color: red;
+}
+
+.select_mail a {
+    font-family: "century gothic";
+    font-variant: small-caps;
+    color: black;
+    font-size:20px;
+    margin-top: 19%;
+    margin-left: 23%;
+    padding:2%;
+    text-decoration: none;
+}
+
+.select_mail a:hover {
+    color: #A0A0A0;
+}
+
+.mails {
+    width: 800px;
+    min-height: 70%;
+    height: auto;
+    border-right: 1px solid #A0A0A0;
+    border-left: 1px solid #A0A0A0;
+    margin-left:23%;
+    margin-top: -5%;
+
 }

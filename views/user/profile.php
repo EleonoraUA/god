@@ -18,4 +18,24 @@
     <?php echo $info['about'];?>
     </span>
 </div>
+<div class="friends">
+    <span class="your_friends">You are friends with:</span>
+    <hr>
+    <?php
+        foreach ($friends as $friend) {
+            ?>
+            <div class = "p_n">
+            <div class="profile_photo_friend">
+                <img class="photo" src="<?php echo "/web/4/god/" . $friend['photo'] ?>" width=20% height=20%>
+            </div>
+            <div class="profile_name_friend">
+                <a href="/web/4/god/profile/view/?who=<?php echo $friend['name'] ?>"><?php echo $friend['name'] ?></a>
+                <a name = 'send' class = 'add_send' href="/web/4/god/profile/send">Send a message</a>
 
+            </div>
+            </div>
+
+            <?php
+        }
+    ?>
+</div>

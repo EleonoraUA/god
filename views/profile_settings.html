@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title></title>
+</head>
+<body>
+
+<form method="post" action="">
+    <label class = "lbl">Upload new photo:</label>
+    <input type="file" name="photo"><br> <br>
+    <input type="submit" value="Save"><br><br>
+</form>
+<form method="post" action="">
+    <label class = "lbl">Name: <br/><input type="text" placeholder="your name" name="name">
+    </label><br/><br/><br/>
+<input type="submit" value="Save"><br><br>
+</form>
+<form method="post" action="">
+    <label class = "lbl">City: <br/><input type="text" placeholder="your city" name="city"></label><br/><br>
+<input type="submit" value="Save"><br><br>
+
+</form>
+<form method="post" action="">
+    <label class = "lbl">Birthday: <br/><input type="date" placeholder="your date of birth" name="birthday"></label>
+<input type="submit" value="Save">
+
+</form>
+<form method="post" action="">
+    <label class = "lbl">Phone: <br/><input type="text" placeholder="your phone" name="phone"></label>
+<input type="submit" value="Save">
+
+</form>
+<form method="post" action="">
+    <label class = "lbl">Public phone <input type="checkbox" name="public_phone" <?php if ($checked['public_phone']) echo 'checked' ?>></label><br>
+    <label class = "lbl">Public birthay <input type="checkbox" name="public_birthday" <?php if ($checked['public_birthday']) echo 'checked' ?>></label><br>
+    <input type="submit" value="Save" name="check">
+</form>
+    <form method="post" action="">
+    <textarea name="about" style="width:50%;height:35%"></textarea>
+    <input type="submit" value="Save">
+
+</form>
+</body>
+<style>
+    input[type='text'] {
+        padding: 1%;
+        width: 50%;
+        height: 5%;
+        border: 1px solid rgb(59,123,246);
+        box-shadow: 0 0 3px rgba(59,123,246, 1);
+    }
+    input[type="submit"]
+    {
+        width:7%;
+        height:4%;
+        background-color: azure;
+        border-radius: 10%;
+        cursor: pointer;
+    }
+    form {
+        width:90%;
+        background-color: white;
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+</style>
+</html>

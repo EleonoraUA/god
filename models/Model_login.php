@@ -21,4 +21,17 @@ class Model_login extends Model
 	    }
 	    	else echo "ERROR!";
 	}
+
+	public function registration()
+	{
+		$email = $_POST["email"];
+		$name = $_POST["name"];
+		$pass = $_POST["password"];
+		$sql = "INSERT INTO `users` (`name`, `email`,`password` ) VALUES ('$name' ,'$email', '$pass')";
+		$id_u = mysql_fetch_array(mysql_query("SELECT `id` FROM users WHERE name='".$name."'"));
+		if (!mysql_query($sql))echo '<p><b>Error with adding data</b></p>';
+		$sql_u = "INSERT INTO `user_info` (`id`, `photo`) VALUES ('".$id_u['id']."' ,'views/user/default_avatar.jpg')";
+		if (!mysql_query($sql_u))echo '<p><b>Error with adding data</b></p>';
+		else echo '<p><b>Success</b></p>';
+	}
 }

@@ -23,4 +23,14 @@ class Controller_Login extends Controller_main
 		unset($_SESSION);
 		header("Location: http://localhost/web/4/god/main/home");
 	}
+
+	function action_registration()
+	{
+		$this->model = new Model_login();
+		if (!empty($_POST)) {
+			$this->model->registration();
+		} else {
+			include_once('views/form.php');
+		}
+	}
 }
