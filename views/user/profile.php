@@ -30,7 +30,7 @@
             </div>
             <div class="profile_name_friend">
                 <a href="/web/4/god/profile/view/?who=<?php echo $friend['name'] ?>"><?php echo $friend['name'] ?></a>
-                <a name = 'send' class = 'add_send' href="/web/4/god/profile/send">Send a message</a>
+                <a name = 'send' class = 'add_send' href="/web/4/god/profile/send/?to=<?php echo $friend['name']?>">Send a message</a>
 
             </div>
             </div>

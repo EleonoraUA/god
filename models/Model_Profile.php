@@ -8,6 +8,9 @@
  */
 class Model_Profile extends Model
 {
+    /**
+     * @return array
+     */
     function getUserInfo()
     {
         $id = mysql_query("SELECT `id`, `email` FROM users WHERE name='".$_GET['who']."'");
@@ -23,6 +26,9 @@ class Model_Profile extends Model
         }
     }
 
+    /**
+     * @return array
+     */
     function getAllUsers()
     {
         $sql = mysql_query("SELECT * FROM user_info JOIN users on users.id=user_info.id");
@@ -33,6 +39,9 @@ class Model_Profile extends Model
         return array($res, $friends);
     }
 
+    /**
+     * @param $id
+     */
     function addToFriends($id)
     {
         $id_second = mysql_query("SELECT `id` FROM users WHERE name='".$_SESSION['name']."' OR name='".$_GET["who"]."'");
@@ -44,6 +53,10 @@ class Model_Profile extends Model
         }
     }
 
+    /**
+     * @param $id
+     * @return bool
+     */
     function areFriends($id)
     {
         $id_u = mysql_fetch_array(mysql_query("SELECT `id` FROM users WHERE name='".$_SESSION['name']."'"));
@@ -56,6 +69,9 @@ class Model_Profile extends Model
         }
     }
 
+    /**
+     * @return array
+     */
     function listOfFriends()
     {
         $sql = mysql_query("SELECT * FROM friends WHERE (userId2='".$_SESSION['name']."' OR userId1='".$_SESSION['name']."')");
@@ -65,12 +81,18 @@ class Model_Profile extends Model
         return $res;
     }
 
+    /**
+     * @return array
+     */
     function getChecked()
     {
         $id_u = mysql_fetch_array(mysql_query("SELECT `id` FROM users WHERE name='".$_SESSION['name']."'"));
         return mysql_fetch_assoc(mysql_query("SELECT public_phone, public_birthday FROM user_info WHERE id='".$id_u['id']."'"));
     }
 
+    /**
+     * @return array
+     */
     function getFriends()
     {
         $friends_id = array();
@@ -95,6 +117,9 @@ class Model_Profile extends Model
         return $result;
     }
 
+    /**
+     *
+     */
     function  saveChanges()
     {
         $id_u = mysql_fetch_array(mysql_query("SELECT `id` FROM users WHERE name='".$_SESSION['name']."'"));
@@ -130,15 +155,51 @@ class Model_Profile extends Model
 
     }
 
+    /**
+     *
+     */
     function getAllMessages()
     {
-
+        $mes = array();
+        $id_u = mysql_fetch_array(mysql_query("SELECT `id` FROM users WHERE name='".$_SESSION['name']."'"));
+        if ($_GET['s'] === 'received') {
+            $mes_sql = mysql_query("SELECT * FROM mails JOIN users on u_from = users.id JOIN user_info ON u_from = user_info.id WHERE u_to='".$id_u['id']."' ORDER BY time DESC");
+        } else if ($_GET['s'] === 'sended') {
+            $mes_sql = mysql_query("SELECT * FROM mails  JOIN users on u_to = users.id JOIN user_info ON u_to = user_info.id WHERE u_from='".$id_u['id']."' ORDER BY time DESC");
+        } else {
+            return;
+        }
+        while ($data = mysql_fetch_assoc($mes_sql)) {
+            $mes[] = $data;
+        }
+        return $mes;
     }
 
+    /**
+     * @return array
+     */
+    function sendTo()
+    {
+        return $this->getFriends();
+    }
+
+    /**
+     *
+     */
     function send()
     {
-        if (!empty($_GET['s']) && $_GET['s'] === 'send') {
-            return $this->getFriends();
+        if (!empty($_POST)) {
+            $u_from = mysql_fetch_array(mysql_query("SELECT `id` FROM users WHERE name='".$_SESSION['name']."'"));
+            $u_from = $u_from['id'];
+            $u_to = mysql_fetch_array(mysql_query("SELECT `id` FROM users WHERE name='".$_GET['to']."'"));
+            $u_to = $u_to['id'];
+            $text = $_POST['mail'];
+            $time = date('Y-m-d H:i:s');
+            if (!mysql_query("INSERT INTO mails(`u_from`, `u_to`, `time`, `state`, `text`) VALUES ('$u_from', '$u_to','$time' , '0', '$text')")){
+                echo mysql_error();
+            } else {
+                echo "Your message to ".$_GET['to']." is sended";
+            }
         }
     }
 

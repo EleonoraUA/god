@@ -9,8 +9,14 @@ error_reporting(0);
  */
 class Controller_Profile extends Controller
 {
+    /**
+     * @var
+     */
     protected $user_id;
 
+    /**
+     *
+     */
     function __construct()
     {
         session_start();
@@ -18,6 +24,10 @@ class Controller_Profile extends Controller
         $this->view = new View();
         $this->view->generate("profile_header.html");
     }
+
+    /**
+     *
+     */
     function action_view()
     {
         $info = $this->model->getUserInfo();
@@ -26,6 +36,9 @@ class Controller_Profile extends Controller
         include_once("views/user/profile.php");
     }
 
+    /**
+     *
+     */
     function action_all()
     {
         $result = $this->model->getAllUsers();
@@ -34,11 +47,17 @@ class Controller_Profile extends Controller
         include_once("views/user/all.php");
     }
 
+    /**
+     *
+     */
     function action_add()
     {
         $this->model->addToFriends($this->user_id);
     }
 
+    /**
+     *
+     */
     function action_settings()
     {
         if (!empty($_POST)) {
@@ -49,11 +68,23 @@ class Controller_Profile extends Controller
         }
     }
 
+    /**
+     *
+     */
     function action_messages()
     {
-        $this->model->send();
-        $this->model->getAllMessages();
+        $messages = $this->model->getAllMessages();
         include_once("views/user/mails.php");
+    }
+
+    /**
+     *
+     */
+    function action_send()
+    {
+        $this->model->send();
+        $friends = $this->model->sendTo();
+        include_once("views/user/sendTo.php");
     }
 
 }
