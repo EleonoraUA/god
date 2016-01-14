@@ -3,11 +3,12 @@ body {
     padding: 0;
     background: white;
 }
+
 header {
     margin-left: 24%;
-    height:18%;
-    width:70%;
-    margin-top:1%;
+    height: 18%;
+    width: 70%;
+    margin-top: 1%;
     background-repeat: no-repeat;
 }
 
@@ -15,22 +16,26 @@ header {
     list-style: none;
     text-align: center;
     padding: 0;
-	width:90%;
-    margin-top:-7%;
+    width: 90%;
+    margin-top: -5%;
     margin-left: 1%;
-    z-index:1000;
+    z-index: 1000;
 }
-.fixed{
-    position: fixed; top: 0px;
+
+.fixed {
+    position: fixed;
+    top: 0px;
 }
+
 hr {
     border: 0;
     position: relative;
     height: 12px;
     box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
-    margin-top:-20px;
+    margin-top: -20px;
     margin-bottom: 7%;
 }
+
 .nav li {
     line-height: 40px;
     height: 30px;
@@ -66,13 +71,15 @@ hr {
     font-family: "century gothic";
     font-size: 20px;
 }
+
 .profile_link a:hover {
-    color:rgb(59,123,246);
+    color: rgb(59, 123, 246);
 }
 
 .nav a:hover {
-    border-top: 5px solid rgb(59,123,246);
+    border-top: 5px solid rgb(59, 123, 246);
 }
+
 @media screen and (min-width: 600px) {
     .nav li {
         width: 120px;
@@ -81,6 +88,7 @@ hr {
         line-height: 50px;
         font-size: 1.4em;
     }
+
     .nav li {
         display: inline-block;
         margin-right: -4px;
@@ -88,27 +96,24 @@ hr {
 }
 
 footer {
-    width:80%;
+    width: 80%;
     height: 30%;
-    border: 1px dotted rgba(100,30,0,0.2);
+    border: 1px dotted rgba(100, 30, 0, 0.2);
     margin-left: 10%;
-    margin-bottom:5%;
-    background-image: url("img/footer.jpg");
+    margin-top: 7%;
+    margin-bottom: 5%;
+    background-image: url("footer.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    border-top:none;
+    border-top: none;
 }
 
 .content {
     background-color: white;
-    width:80%;
+    width: 80%;
     margin-left: 10%;
-    border: 1px dotted rgba(0,0,0,0.2);
+    border: 1px dotted rgba(0, 0, 0, 0.2);
 }
-
-
-
-
 
 input, textarea, label {
     margin-left: 25%;
@@ -116,8 +121,8 @@ input, textarea, label {
 }
 
 textarea {
-    border: 1px solid rgb(59,123,246);
-    box-shadow: 0 0 3px rgba(59,123,246, 1);
+    border: 1px solid rgb(59, 123, 246);
+    box-shadow: 0 0 3px rgba(59, 123, 246, 1);
 }
 
 label {
@@ -125,91 +130,88 @@ label {
     font-size: 1.2em;
 }
 
-
 .error {
     font-family: 'Oswald', sans-serif;
     font-size: 0.7em;
-    color:red;
+    color: red;
 }
 
 .text_hendo {
     font-size: 18px;
-    font-family: "Lato","Helvetica Neue",Helvetica,sans-serif;
+    font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
     color: darkgray;
     text-align: left;
     line-height: 1.7;
-    width:90%;
+    width: 90%;
     margin-left: 5%;
     margin-top: 2%;
     margin-bottom: 3%;
 }
 
 img {
-    width:90%;
-    height:80%;
+    width: 90%;
+    height: 80%;
     margin-left: 5%;
     margin-top: 5%;
 }
 
 img[alt="greg"] {
-    height:60%;
+    height: 60%;
     margin-bottom: 5%;
 }
+
 img[alt="main"] {
     margin-bottom: 5%;
-    margin-top:1%;
+    margin-top: 1%;
 }
 
 iframe {
-    margin-left:23%;
+    margin-left: 23%;
     margin-bottom: 5%;
-    width:40%;
-    height:40%;
+    width: 40%;
+    height: 40%;
 }
 
-img[alt="hendo"]
-{
-    height:12%;
+img[alt="hendo"] {
+    height: 12%;
     max-height: 120px;
     max-width: 176px;
-    width:60%;
+    width: 60%;
     margin-left: -16%;
     margin-top: 1%;
     position: absolute;
 }
 
-img[alt="404"]
-{
-    margin-left:500px;
+img[alt="404"] {
+    margin-left: 500px;
 }
 
 .loh {
     position: fixed;
-    margin-top:2%;
+    margin-top: 2%;
     margin-left: 68%;
     text-decoration: none;
     font-family: "century gothic";
-    color: rgb(59,123,246);
-    font-size:0.8em;
+    color: rgb(59, 123, 246);
+    font-size: 0.8em;
     background-color: white;
 }
 
 .prof {
     position: absolute;
     margin-left: 68%;
-    margin-top:-2%;
+    margin-top: -2%;
     text-decoration: none;
     font-family: "century gothic";
-    color: rgb(59,123,246);
-    font-size:0.8em;
+    color: rgb(59, 123, 246);
+    font-size: 0.8em;
 }
 
-.loh:hover
-{
+.loh:hover {
     text-decoration: underline;
 }
 
-#container{
+#container {
     display: none;
     opacity: 0.8;
     position: fixed;
@@ -223,7 +225,7 @@ img[alt="404"]
     overflow: auto;
 }
 
-#signForm{
+#signForm {
     width: 400px;
     height: 400px;
     margin: 50px auto;
@@ -240,13 +242,14 @@ img[alt="404"]
 }
 
 #close {
-    height:30px;
-    width:30px;
-    margin-left:95%;
+    height: 30px;
+    width: 30px;
+    margin-left: 95%;
     margin-top: -2%;
 
 }
-#RForm{
+
+#RForm {
     width: 400px;
     height: 400px;
     margin: 50px auto;
@@ -261,7 +264,8 @@ img[alt="404"]
     padding: 16px;
     border-radius: 4%;
 }
-#containerR{
+
+#containerR {
     display: none;
     opacity: 0.8;
     position: fixed;
@@ -274,71 +278,75 @@ img[alt="404"]
     z-index: 100;
     overflow: auto;
 }
- a[name='wo']:hover{
+
+a[name='wo']:hover {
     text-decoration: underline;
- }
+}
 
- a[name='new'] {
+a[name='new'] {
     position: absolute;
-    margin-left:45%;
- }
+    margin-left: 45%;
+}
 
- .ex {
+.ex {
     color: yellow;
- }
+}
 
- .profile_photo {
-     margin-left: 5%;
-     margin-top: -4%;
-     max-width: 200px;
+.profile_photo {
+    margin-left: 5%;
+    margin-top: -4%;
+    max-width: 200px;
 
- }
+}
 
 .profile_photo_all {
     margin-left: 5%;
     margin-top: -4%;
     max-width: 80px;
 }
+
 .profile_name_all {
     font-family: "century gothic";
-    color: rgb(59,123,246);
+    color: rgb(59, 123, 246);
     margin-left: 23%;
     margin-top: 0%;
-    font-size:20px;
+    font-size: 20px;
 }
- .photo {
-     max-width: 100%;
-     float: left;
-     border-radius: 2%;
-     height: auto;
-     box-shadow: 7px 7px 31px -10px rgba(107,107,107,1);
- }
 
- .profile_name {
-     font-family: "century gothic";
-     color: rgb(59,123,246);
-     margin-left: 23%;
-     margin-top: 7.5%;
-     font-size:20px;
- }
+.photo {
+    max-width: 100%;
+    float: left;
+    border-radius: 2%;
+    height: auto;
+    box-shadow: 7px 7px 31px -10px rgba(107, 107, 107, 1);
+}
 
-.profile_name_friend a{
+.profile_name {
+    font-family: "century gothic";
+    color: rgb(59, 123, 246);
+    margin-left: 23%;
+    margin-top: 7.5%;
+    font-size: 20px;
+}
+
+.profile_name_friend a {
     text-decoration: none;
     font-family: "century gothic";
-    color: rgb(59,123,246);
+    color: rgb(59, 123, 246);
     margin-left: 3%;
     margin-top: 10%;
-    font-size:15px;
+    font-size: 15px;
 }
 
-.profile_name_friend_sendTo a{
+.profile_name_friend_sendTo a {
     text-decoration: none;
     font-family: "century gothic";
-    color: rgb(59,123,246);
+    color: rgb(59, 123, 246);
     margin-left: 3%;
     margin-top: 10%;
-    font-size:15px;
+    font-size: 15px;
 }
+
 .profile_name_friend {
     margin-top: 5%;
 }
@@ -348,7 +356,7 @@ img[alt="404"]
     margin-top: -25%;
 }
 
-.mail_form input{
+.mail_form input {
     margin-top: 1%;
     width: 10%;
     height: 5%;
@@ -365,19 +373,18 @@ img[alt="404"]
     color: black;
     margin-left: 23%;
     margin-top: 1%;
-    font-size:15px;
+    font-size: 15px;
 }
 
 .about_text {
     font-family: 'Arial';
-    font-size:13px;
+    font-size: 13px;
 }
 
-.profile_contact input
-{
-    width:120px;
-    height:30px;
-    background-color: rgba(59,123,246, 0.6);
+.profile_contact input {
+    width: 120px;
+    height: 30px;
+    background-color: rgba(59, 123, 246, 0.6);
     margin-left: 0%;
 }
 
@@ -395,7 +402,7 @@ img[alt="404"]
     font-family: "century gothic";
     font-variant: small-caps;
     color: black;
-    font-size:13px;
+    font-size: 13px;
     margin-left: 4%;
 }
 
@@ -439,7 +446,7 @@ img[alt="404"]
 
 .friends_send_to {
     border-top: 1px solid #A0A0A0;
-    margin-left:1%;
+    margin-left: 1%;
     margin-top: 0%;
     width: 400px;
     min-height: 300px;
@@ -457,6 +464,7 @@ img[alt="404"]
     margin-top: 3%;
     max-width: 120px;
 }
+
 .profile_photo_friend img {
     border-radius: 10%;
 }
@@ -465,7 +473,7 @@ img[alt="404"]
     font-family: "century gothic";
     font-variant: small-caps;
     color: black;
-    font-size:17px;
+    font-size: 17px;
     margin-left: 45%;
 }
 
@@ -483,7 +491,7 @@ img[alt="404"]
     border-top: 1px solid #A0A0A0;
 }
 
-.send{
+.send {
     color: red;
 }
 
@@ -491,21 +499,22 @@ img[alt="404"]
     font-family: "century gothic";
     font-variant: small-caps;
     color: black;
-    font-size:20px;
+    font-size: 20px;
     margin-top: 19%;
     margin-left: 23%;
-    padding:2%;
+    padding: 2%;
     text-decoration: none;
 }
 
 .select_mail a:hover {
     color: #A0A0A0;
 }
+
 .mail_text {
     font-family: "century gothic";
     font-variant: small-caps;
     color: black;
-    font-size:15px;
+    font-size: 15px;
     margin-left: 5%;
 }
 
@@ -515,14 +524,14 @@ img[alt="404"]
     height: auto;
     border-right: 1px solid #A0A0A0;
     border-left: 1px solid #A0A0A0;
-    margin-left:23%;
+    margin-left: 23%;
     margin-top: -7%;
 
 }
 
 .profile_name_mail a {
     text-decoration: none;
-    color: rgb(59,123,246);
+    color: rgb(59, 123, 246);
     font-family: "century gothic";
     font-size: 15px;
     margin-top: 15%;

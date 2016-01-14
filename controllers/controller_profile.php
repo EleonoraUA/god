@@ -87,4 +87,28 @@ class Controller_Profile extends Controller
         include_once("views/user/sendTo.php");
     }
 
+    function action_addquiz()
+    {
+        if (!empty($_POST)) {
+            $this->model->addQuiz();
+        } else {
+            include_once("views/addquiz.php");
+        }
+    }
+
+    function action_seequiz()
+    {
+        $quizes = $this->model->getQuizes();
+        $votes = $this->model->getVotes();
+        $voted = $this->model->voted();
+        include_once("views/quizes.php");
+    }
+
+    function action_vote()
+    {
+        $this->model->vote();
+    }
+
+
+
 }

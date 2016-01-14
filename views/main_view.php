@@ -1,3 +1,7 @@
 <?php
-echo $content;
-include_once('comments.php');
+if (empty($_SESSION['edit'])) {
+    echo $content;
+} else {
+    echo $_SESSION['edit'];
+    $_SESSION['edit'] = NULL;
+}

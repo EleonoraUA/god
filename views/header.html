@@ -1,6 +1,6 @@
 <html>
 <head>
-<script type="text/javascript" src="http://localhost/web/4/god/views/index.js"></script>
+    <script type="text/javascript" src="http://localhost/web/4/god/views/index.js"></script>
     <link rel="stylesheet" href="http://localhost/web/4/god/views/index.css">
 </head>
 <body class="news">
@@ -9,12 +9,12 @@
     <?php
     session_start();
     if (!isset($_SESSION['name'])) { ?>
-        <a class = "loh" name=\"reg\" href = "http://localhost/web/4/god/login" onclick="popUp()">Sign in</a><br/><br/>
-        <a class = "loh" name=\"reg\" href = "/web/4/god/login/registration" onclick="popUpR()">Registration</a>
-<?php
+    <a class="loh" name=\"reg\" href="http://localhost/web/4/god/login" onclick="popUp()">Sign in</a><br/><br/>
+    <a class="loh" name=\"reg\" href="/web/4/god/login/registration" onclick="popUpR()">Registration</a>
+    <?php
     } 
-    else {?> 
-    <a class="loh" name='reg' href = "http://localhost/web/4/god/login/out">Sign out</a><br/><br/>
-    <a class="loh" name='reg' href = "/web/4/god/profile/view/?who=<?php echo $_SESSION['name']?>">Profile</a><br/><br/>
+    else {?>
+    <a class="loh" name='reg' href="http://localhost/web/4/god/login/out">Sign out</a><br/><br/>
+    <a class="loh" name='reg' href="/web/4/god/profile/view/?who=<?php echo $_SESSION['name']?>">Profile</a><br/><br/>
     <?php } ?>
 

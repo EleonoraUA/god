@@ -20,9 +20,10 @@
    <a name='12' href = "http://localhost/web/4/god/admin/out">Sign out</a>
 
     <ul>
+        <li><a name='new' href="http://localhost/web/4/god/admin/comments">Comments</a></li>
         <li><a href="http://localhost/web/4/god/admin/pages"> Page control</a></li><br/><br/>
         <li><a href="http://localhost/web/4/god/admin/messages"> Messages control</a></li>
-        <li><a name='new' href="http://localhost/web/4/god/admin/addPage">New page</a></li>
+        <li><a name='new' href="http://localhost/web/4/god/admin/addPage">New page</a></li><br/>
     </ul>
     </header>
 <hr/>
