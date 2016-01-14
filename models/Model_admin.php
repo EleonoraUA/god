@@ -8,6 +8,7 @@ class Model_admin extends Model
 {
 
     protected $main;
+
     /**
      *
      */

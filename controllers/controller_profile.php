@@ -1,6 +1,7 @@
 <?php
 
 error_reporting(0);
+
 /**
  * Created by PhpStorm.
  * User: Eleonora
@@ -108,7 +109,6 @@ class Controller_Profile extends Controller
     {
         $this->model->vote();
     }
-
 
 
 }

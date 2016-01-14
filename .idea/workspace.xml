@@ -2,44 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5ef3c74-7edb-4714-9000-29882b86f589" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/addquiz.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin_comments.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/preview.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/quizes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Controller_main.php" afterPath="$PROJECT_DIR$/controllers/Controller_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Model_FAQ.php" afterPath="$PROJECT_DIR$/models/Model_FAQ.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Model_Profile.php" afterPath="$PROJECT_DIR$/models/Model_Profile.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Model_admin.php" afterPath="$PROJECT_DIR$/models/Model_admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Model_contact.php" afterPath="$PROJECT_DIR$/models/Model_contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Model_login.php" afterPath="$PROJECT_DIR$/models/Model_login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Model_main.php" afterPath="$PROJECT_DIR$/models/Model_main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin_header.php" afterPath="$PROJECT_DIR$/views/admin_header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/ajax.php" afterPath="$PROJECT_DIR$/core/ajax.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/comments.php" afterPath="$PROJECT_DIR$/views/comments.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/contact.html" afterPath="$PROJECT_DIR$/views/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/controller_admin.php" afterPath="$PROJECT_DIR$/controllers/controller_admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/controller_login.php" afterPath="$PROJECT_DIR$/controllers/controller_login.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/controller_profile.php" afterPath="$PROJECT_DIR$/controllers/controller_profile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/edit.php" afterPath="$PROJECT_DIR$/views/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/faq.php" afterPath="$PROJECT_DIR$/core/faq.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/form.php" afterPath="$PROJECT_DIR$/core/form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/form_login.php" afterPath="$PROJECT_DIR$/core/form_login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/goods.xml" afterPath="$PROJECT_DIR$/goods.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/header.html" afterPath="$PROJECT_DIR$/views/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/if.php" afterPath="$PROJECT_DIR$/models/if.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.css" afterPath="$PROJECT_DIR$/views/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/login_view.php" afterPath="$PROJECT_DIR$/views/login_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/main_view.php" afterPath="$PROJECT_DIR$/views/main_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/model.php" afterPath="$PROJECT_DIR$/core/model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/profile_header.html" afterPath="$PROJECT_DIR$/views/profile_header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/route.php" afterPath="$PROJECT_DIR$/core/route.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/rss.css" afterPath="$PROJECT_DIR$/views/rss.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/rss.php" afterPath="$PROJECT_DIR$/core/rss.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/script.js" afterPath="$PROJECT_DIR$/views/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/table_start.html" afterPath="$PROJECT_DIR$/views/table_start.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/view.php" afterPath="$PROJECT_DIR$/core/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/quizes.php" afterPath="$PROJECT_DIR$/views/quizes.php" />
     </list>
     <ignored path="god.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,93 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Model_admin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/Model_admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="95" column="51" selection-start-line="95" selection-start-column="51" selection-end-line="95" selection-end-column="51" />
-              <folding>
-                <marker date="1452686449836" expanded="true" signature="218:328" placeholder="SELECT *, co..." />
-                <marker date="1452686449836" expanded="true" signature="599:621" placeholder="SELECT * FRO..articles..." />
-                <marker date="1452686449836" expanded="true" signature="1086:1136" placeholder="SELECT count..." />
-                <marker date="1452686449836" expanded="true" signature="1176:1207" placeholder="SELECT count..." />
-                <marker date="1452686449836" expanded="true" signature="1502:1541" placeholder="SELECT * FRO..." />
-                <marker date="1452686449836" expanded="true" signature="1814:1845" placeholder="DELETE FROM ..." />
-                <marker date="1452686449836" expanded="true" signature="2015:2078" placeholder="UPDATE comme..." />
-                <marker date="1452686449836" expanded="true" signature="2963:3100" placeholder="INSERT INTO ..." />
-                <marker date="1452686449836" expanded="true" signature="3131:3220" placeholder="INSERT INTO ..." />
-                <marker date="1452686449836" expanded="true" signature="3470:3506" placeholder="DELETE FROM ..." />
-                <marker date="1452686449836" expanded="true" signature="4116:4188" placeholder="UPDATE messa..." />
-                <marker date="1452686449836" expanded="true" signature="4579:4635" placeholder="UPDATE artic..." />
-                <marker date="1452686449836" expanded="true" signature="4907:4966" placeholder="UPDATE artic..." />
-                <marker date="1452686449836" expanded="true" signature="5848:5913" placeholder="UPDATE conte..." />
-                <marker date="1452686449836" expanded="true" signature="6175:6230" placeholder="SELECT `text..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Model_Profile.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/Model_Profile.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.547619">
-              <caret line="254" column="5" selection-start-line="254" selection-start-column="5" selection-end-line="254" selection-end-column="5" />
-              <folding>
-                <marker date="1452761265150" expanded="true" signature="225:290" placeholder="SELECT `id`,..." />
-                <marker date="1452761265150" expanded="true" signature="494:546" placeholder="SELECT * FRO..user_info..." />
-                <marker date="1452761265150" expanded="true" signature="778:837" placeholder="SELECT * FRO..user_info..." />
-                <marker date="1452761265150" expanded="true" signature="1147:1239" placeholder="SELECT `id` ..." />
-                <marker date="1452761265150" expanded="true" signature="1369:1433" placeholder="INSERT INTO ..." />
-                <marker date="1452761265150" expanded="true" signature="1618:1679" placeholder="SELECT `id` ..." />
-                <marker date="1452761265150" expanded="true" signature="1730:1876" placeholder="SELECT * FRO..friends..." />
-                <marker date="1452761265150" expanded="true" signature="2120:2224" placeholder="SELECT * FRO..friends..." />
-                <marker date="1452761265150" expanded="true" signature="2460:2521" placeholder="SELECT `id` ..." />
-                <marker date="1452761265150" expanded="true" signature="2572:2654" placeholder="SELECT publi..user_info..." />
-                <marker date="1452761265150" expanded="true" signature="2840:2901" placeholder="SELECT `id` ..." />
-                <marker date="1452761265150" expanded="true" signature="2934:3001" placeholder="SELECT `user..." />
-                <marker date="1452761265150" expanded="true" signature="3130:3198" placeholder="SELECT `user..." />
-                <marker date="1452761265150" expanded="true" signature="3374:3492" placeholder="SELECT `name..." />
-                <marker date="1452761265150" expanded="true" signature="3834:3895" placeholder="SELECT `id` ..." />
-                <marker date="1452761265150" expanded="true" signature="3963:4042" placeholder="UPDATE users..." />
-                <marker date="1452761265150" expanded="true" signature="4167:4250" placeholder="UPDATE user_..." />
-                <marker date="1452761265150" expanded="true" signature="4331:4422" placeholder="UPDATE user_..." />
-                <marker date="1452761265150" expanded="true" signature="4500:4585" placeholder="UPDATE user_..." />
-                <marker date="1452761265150" expanded="true" signature="4663:4748" placeholder="UPDATE user_..." />
-                <marker date="1452761265150" expanded="true" signature="5046:5200" placeholder="UPDATE user_..." />
-                <marker date="1452761265150" expanded="true" signature="5331:5406" placeholder="UPDATE user_..." />
-                <marker date="1452761265150" expanded="true" signature="5558:5619" placeholder="SELECT `id` ..." />
-                <marker date="1452761265150" expanded="true" signature="5701:5844" placeholder="SELECT * FRO..mails..." />
-                <marker date="1452761265150" expanded="true" signature="5930:6072" placeholder="SELECT * FRO..mails..." />
-                <marker date="1452761265150" expanded="true" signature="6483:6544" placeholder="SELECT `id` ..." />
-                <marker date="1452761265150" expanded="true" signature="6637:6692" placeholder="SELECT `id` ..." />
-                <marker date="1452761265150" expanded="true" signature="6837:6948" placeholder="INSERT INTO ..." />
-                <marker date="1452761265150" expanded="true" signature="7188:7249" placeholder="SELECT `id` ..." />
-                <marker date="1452761265150" expanded="true" signature="7463:7556" placeholder="INSERT INTO ..." />
-                <marker date="1452761265150" expanded="true" signature="7741:7765" placeholder="SELECT * FRO..quiz_topic..." />
-                <marker date="1452761265150" expanded="true" signature="7974:8035" placeholder="SELECT `id` ..." />
-                <marker date="1452761265150" expanded="true" signature="8152:8186" placeholder="SELECT `id` ..." />
-                <marker date="1452761265150" expanded="true" signature="8152:8193" placeholder="SELECT `id` ..." />
-                <marker date="1452761265150" expanded="true" signature="8152:8216" placeholder="SELECT `id` ..." />
-                <marker date="1452761265150" expanded="true" signature="8278:8342" placeholder="INSERT INTO ..." />
-                <marker date="1452761265150" expanded="true" signature="8443:8474" placeholder="SELECT `quiz..." />
-                <marker date="1452761265150" expanded="true" signature="8621:8683" placeholder="SELECT COUNT..quiz_vote..." />
-                <marker date="1452761265150" expanded="true" signature="8621:8687" placeholder="SELECT COUNT..quiz_vote..." />
-                <marker date="1452761265150" expanded="true" signature="8621:8697" placeholder="SELECT COUNT..quiz_vote..." />
-                <marker date="1452761265150" expanded="true" signature="8621:8725" placeholder="SELECT COUNT..quiz_vote..." />
-                <marker date="1452761265150" expanded="true" signature="8815:8877" placeholder="SELECT COUNT..quiz_vote..." />
-                <marker date="1452761265150" expanded="true" signature="8815:8919" placeholder="SELECT COUNT..quiz_vote..." />
-                <marker date="1452761265150" expanded="true" signature="9009:9071" placeholder="SELECT COUNT..quiz_vote..." />
-                <marker date="1452761265150" expanded="true" signature="9009:9113" placeholder="SELECT COUNT..quiz_vote..." />
-                <marker date="1452761265150" expanded="true" signature="9203:9265" placeholder="SELECT COUNT..quiz_vote..." />
-                <marker date="1452761265150" expanded="true" signature="9203:9307" placeholder="SELECT COUNT..quiz_vote..." />
-                <marker date="1452761265150" expanded="true" signature="9455:9516" placeholder="SELECT `id` ..." />
-                <marker date="1452761265150" expanded="true" signature="9585:9632" placeholder="SELECT `quiz..." />
-                <marker date="1452761265150" expanded="true" signature="9585:9644" placeholder="SELECT `quiz..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/script.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -158,21 +37,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile_header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/profile_header.html">
+      <file leaf-file-name="Model_Profile.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/Model_Profile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
-              <folding />
+            <state vertical-scroll-proportion="-8.595238">
+              <caret line="240" column="13" selection-start-line="240" selection-start-column="13" selection-end-line="240" selection-end-column="13" />
+              <folding>
+                <marker date="1452762407736" expanded="true" signature="225:290" placeholder="SELECT `id`,..." />
+                <marker date="1452762407736" expanded="true" signature="494:546" placeholder="SELECT * FRO..user_info..." />
+                <marker date="1452762407736" expanded="true" signature="778:837" placeholder="SELECT * FRO..user_info..." />
+                <marker date="1452762407736" expanded="true" signature="1147:1239" placeholder="SELECT `id` ..." />
+                <marker date="1452762407736" expanded="true" signature="1369:1433" placeholder="INSERT INTO ..." />
+                <marker date="1452762407736" expanded="true" signature="1618:1679" placeholder="SELECT `id` ..." />
+                <marker date="1452762407736" expanded="true" signature="1730:1876" placeholder="SELECT * FRO..friends..." />
+                <marker date="1452762407736" expanded="true" signature="2120:2224" placeholder="SELECT * FRO..friends..." />
+                <marker date="1452762407736" expanded="true" signature="2460:2521" placeholder="SELECT `id` ..." />
+                <marker date="1452762407736" expanded="true" signature="2572:2654" placeholder="SELECT publi..user_info..." />
+                <marker date="1452762407736" expanded="true" signature="2840:2901" placeholder="SELECT `id` ..." />
+                <marker date="1452762407736" expanded="true" signature="2934:3001" placeholder="SELECT `user..." />
+                <marker date="1452762407736" expanded="true" signature="3130:3198" placeholder="SELECT `user..." />
+                <marker date="1452762407736" expanded="true" signature="3374:3492" placeholder="SELECT `name..." />
+                <marker date="1452762407736" expanded="true" signature="3834:3895" placeholder="SELECT `id` ..." />
+                <marker date="1452762407736" expanded="true" signature="3963:4042" placeholder="UPDATE users..." />
+                <marker date="1452762407736" expanded="true" signature="4167:4250" placeholder="UPDATE user_..." />
+                <marker date="1452762407736" expanded="true" signature="4331:4422" placeholder="UPDATE user_..." />
+                <marker date="1452762407736" expanded="true" signature="4500:4585" placeholder="UPDATE user_..." />
+                <marker date="1452762407736" expanded="true" signature="4663:4748" placeholder="UPDATE user_..." />
+                <marker date="1452762407736" expanded="true" signature="5046:5200" placeholder="UPDATE user_..." />
+                <marker date="1452762407736" expanded="true" signature="5331:5406" placeholder="UPDATE user_..." />
+                <marker date="1452762407736" expanded="true" signature="5558:5619" placeholder="SELECT `id` ..." />
+                <marker date="1452762407736" expanded="true" signature="5701:5844" placeholder="SELECT * FRO..mails..." />
+                <marker date="1452762407736" expanded="true" signature="5930:6072" placeholder="SELECT * FRO..mails..." />
+                <marker date="1452762407736" expanded="true" signature="6483:6544" placeholder="SELECT `id` ..." />
+                <marker date="1452762407736" expanded="true" signature="6637:6692" placeholder="SELECT `id` ..." />
+                <marker date="1452762407736" expanded="true" signature="6837:6948" placeholder="INSERT INTO ..." />
+                <marker date="1452762407736" expanded="true" signature="7188:7249" placeholder="SELECT `id` ..." />
+                <marker date="1452762407736" expanded="true" signature="7463:7556" placeholder="INSERT INTO ..." />
+                <marker date="1452762407736" expanded="true" signature="7741:7765" placeholder="SELECT * FRO..quiz_topic..." />
+                <marker date="1452762407736" expanded="true" signature="7974:8035" placeholder="SELECT `id` ..." />
+                <marker date="1452762407736" expanded="true" signature="8152:8216" placeholder="SELECT `id` ..." />
+                <marker date="1452762407736" expanded="true" signature="8278:8342" placeholder="INSERT INTO ..." />
+                <marker date="1452762407736" expanded="true" signature="8443:8474" placeholder="SELECT `quiz..." />
+                <marker date="1452762407736" expanded="true" signature="8621:8725" placeholder="SELECT COUNT..quiz_vote..." />
+                <marker date="1452762407736" expanded="true" signature="8815:8919" placeholder="SELECT COUNT..quiz_vote..." />
+                <marker date="1452762407736" expanded="true" signature="9009:9113" placeholder="SELECT COUNT..quiz_vote..." />
+                <marker date="1452762407736" expanded="true" signature="9203:9307" placeholder="SELECT COUNT..quiz_vote..." />
+                <marker date="1452762407736" expanded="true" signature="9455:9516" placeholder="SELECT `id` ..." />
+                <marker date="1452762407736" expanded="true" signature="9585:9648" placeholder="SELECT `quiz..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controller_profile.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/controller_profile.php">
+      <file leaf-file-name="profile_header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/profile_header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.333334">
-              <caret line="102" column="35" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="35" />
+            <state vertical-scroll-proportion="-11.0">
+              <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -181,28 +102,48 @@
       <file leaf-file-name="quizes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/quizes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9073806">
-              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7773556">
+              <caret line="46" column="62" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
               <folding>
-                <marker date="1452761798974" expanded="true" signature="2389:3014" placeholder="..." />
-                <marker date="1452761798974" expanded="true" signature="2389:3024" placeholder="..." />
-                <marker date="1452761798974" expanded="true" signature="2405:2508" placeholder="{...}" />
-                <marker date="1452761798974" expanded="true" signature="2522:2625" placeholder="{...}" />
-                <marker date="1452761798974" expanded="true" signature="2650:2763" placeholder="{...}" />
-                <marker date="1452761798974" expanded="true" signature="2772:2804" placeholder="{...}" />
-                <marker date="1452761798974" expanded="true" signature="2815:2925" placeholder="{...}" />
-                <marker date="1452761798974" expanded="true" signature="2936:3012" placeholder="{...}" />
+                <marker date="1452766883611" expanded="true" signature="2630:3304" placeholder="..." />
+                <marker date="1452766883611" expanded="true" signature="2687:2790" placeholder="{...}" />
+                <marker date="1452766883611" expanded="true" signature="2804:2907" placeholder="{...}" />
+                <marker date="1452766883611" expanded="true" signature="2932:3045" placeholder="{...}" />
+                <marker date="1452766883611" expanded="true" signature="3054:3086" placeholder="{...}" />
+                <marker date="1452766883611" expanded="true" signature="3097:3207" placeholder="{...}" />
+                <marker date="1452766883611" expanded="true" signature="3218:3294" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template_view.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/template_view.php">
+      <file leaf-file-name="controller_profile.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/controller_profile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-19.547619">
+              <caret line="102" column="35" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="35" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Model_main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/Model_main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-37.04762">
+              <caret line="77" column="40" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
+              <folding>
+                <marker date="1452689331160" expanded="true" signature="102:183" placeholder="SELECT `topi..." />
+                <marker date="1452689331160" expanded="true" signature="206:269" placeholder="SELECT `topi..." />
+                <marker date="1452689331160" expanded="true" signature="739:794" placeholder="SELECT `text..." />
+                <marker date="1452689331160" expanded="true" signature="1166:1428" placeholder="SELECT artic..articles..." />
+                <marker date="1452689331160" expanded="true" signature="1469:1754" placeholder="SELECT artic..articles..." />
+                <marker date="1452689331160" expanded="true" signature="1806:1945" placeholder="SELECT artic..articles..." />
+                <marker date="1452689331160" expanded="true" signature="2328:2498" placeholder="SELECT * FRO..comments..." />
+                <marker date="1452689331160" expanded="true" signature="2785:2846" placeholder="SELECT `id` ..." />
+                <marker date="1452689331160" expanded="true" signature="3034:3117" placeholder="INSERT INTO ..." />
+                <marker date="1452689331160" expanded="true" signature="3415:3470" placeholder="SELECT `text..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -263,12 +204,12 @@
         <option value="$PROJECT_DIR$/controllers/controller_admin.php" />
         <option value="$PROJECT_DIR$/views/script.js" />
         <option value="$PROJECT_DIR$/core/preview.php" />
-        <option value="$PROJECT_DIR$/models/Model_admin.php" />
         <option value="$PROJECT_DIR$/models/Model_main.php" />
         <option value="$PROJECT_DIR$/views/main_view.php" />
         <option value="$PROJECT_DIR$/views/profile_header.html" />
         <option value="$PROJECT_DIR$/views/addquiz.php" />
         <option value="$PROJECT_DIR$/controllers/controller_profile.php" />
+        <option value="$PROJECT_DIR$/models/Model_admin.php" />
         <option value="$PROJECT_DIR$/models/Model_Profile.php" />
         <option value="$PROJECT_DIR$/views/quizes.php" />
       </list>
@@ -727,25 +668,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/preview.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.285714">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Model_main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.404762">
-          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -760,30 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.857143">
           <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Model_admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="51" selection-start-line="95" selection-start-column="51" selection-end-line="95" selection-end-column="51" />
-          <folding>
-            <marker date="1452686449836" expanded="true" signature="218:328" placeholder="SELECT *, co..." />
-            <marker date="1452686449836" expanded="true" signature="599:621" placeholder="SELECT * FRO..articles..." />
-            <marker date="1452686449836" expanded="true" signature="1086:1136" placeholder="SELECT count..." />
-            <marker date="1452686449836" expanded="true" signature="1176:1207" placeholder="SELECT count..." />
-            <marker date="1452686449836" expanded="true" signature="1502:1541" placeholder="SELECT * FRO..." />
-            <marker date="1452686449836" expanded="true" signature="1814:1845" placeholder="DELETE FROM ..." />
-            <marker date="1452686449836" expanded="true" signature="2015:2078" placeholder="UPDATE comme..." />
-            <marker date="1452686449836" expanded="true" signature="2963:3100" placeholder="INSERT INTO ..." />
-            <marker date="1452686449836" expanded="true" signature="3131:3220" placeholder="INSERT INTO ..." />
-            <marker date="1452686449836" expanded="true" signature="3470:3506" placeholder="DELETE FROM ..." />
-            <marker date="1452686449836" expanded="true" signature="4116:4188" placeholder="UPDATE messa..." />
-            <marker date="1452686449836" expanded="true" signature="4579:4635" placeholder="UPDATE artic..." />
-            <marker date="1452686449836" expanded="true" signature="4907:4966" placeholder="UPDATE artic..." />
-            <marker date="1452686449836" expanded="true" signature="5848:5913" placeholder="UPDATE conte..." />
-            <marker date="1452686449836" expanded="true" signature="6175:6230" placeholder="SELECT `text..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -818,92 +720,133 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/profile_header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-11.0">
           <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/Model_Profile.php">
+    <entry file="file://$PROJECT_DIR$/models/Model_admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.547619">
-          <caret line="254" column="5" selection-start-line="254" selection-start-column="5" selection-end-line="254" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="96" column="51" selection-start-line="96" selection-start-column="51" selection-end-line="96" selection-end-column="51" />
           <folding>
-            <marker date="1452761265150" expanded="true" signature="225:290" placeholder="SELECT `id`,..." />
-            <marker date="1452761265150" expanded="true" signature="494:546" placeholder="SELECT * FRO..user_info..." />
-            <marker date="1452761265150" expanded="true" signature="778:837" placeholder="SELECT * FRO..user_info..." />
-            <marker date="1452761265150" expanded="true" signature="1147:1239" placeholder="SELECT `id` ..." />
-            <marker date="1452761265150" expanded="true" signature="1369:1433" placeholder="INSERT INTO ..." />
-            <marker date="1452761265150" expanded="true" signature="1618:1679" placeholder="SELECT `id` ..." />
-            <marker date="1452761265150" expanded="true" signature="1730:1876" placeholder="SELECT * FRO..friends..." />
-            <marker date="1452761265150" expanded="true" signature="2120:2224" placeholder="SELECT * FRO..friends..." />
-            <marker date="1452761265150" expanded="true" signature="2460:2521" placeholder="SELECT `id` ..." />
-            <marker date="1452761265150" expanded="true" signature="2572:2654" placeholder="SELECT publi..user_info..." />
-            <marker date="1452761265150" expanded="true" signature="2840:2901" placeholder="SELECT `id` ..." />
-            <marker date="1452761265150" expanded="true" signature="2934:3001" placeholder="SELECT `user..." />
-            <marker date="1452761265150" expanded="true" signature="3130:3198" placeholder="SELECT `user..." />
-            <marker date="1452761265150" expanded="true" signature="3374:3492" placeholder="SELECT `name..." />
-            <marker date="1452761265150" expanded="true" signature="3834:3895" placeholder="SELECT `id` ..." />
-            <marker date="1452761265150" expanded="true" signature="3963:4042" placeholder="UPDATE users..." />
-            <marker date="1452761265150" expanded="true" signature="4167:4250" placeholder="UPDATE user_..." />
-            <marker date="1452761265150" expanded="true" signature="4331:4422" placeholder="UPDATE user_..." />
-            <marker date="1452761265150" expanded="true" signature="4500:4585" placeholder="UPDATE user_..." />
-            <marker date="1452761265150" expanded="true" signature="4663:4748" placeholder="UPDATE user_..." />
-            <marker date="1452761265150" expanded="true" signature="5046:5200" placeholder="UPDATE user_..." />
-            <marker date="1452761265150" expanded="true" signature="5331:5406" placeholder="UPDATE user_..." />
-            <marker date="1452761265150" expanded="true" signature="5558:5619" placeholder="SELECT `id` ..." />
-            <marker date="1452761265150" expanded="true" signature="5701:5844" placeholder="SELECT * FRO..mails..." />
-            <marker date="1452761265150" expanded="true" signature="5930:6072" placeholder="SELECT * FRO..mails..." />
-            <marker date="1452761265150" expanded="true" signature="6483:6544" placeholder="SELECT `id` ..." />
-            <marker date="1452761265150" expanded="true" signature="6637:6692" placeholder="SELECT `id` ..." />
-            <marker date="1452761265150" expanded="true" signature="6837:6948" placeholder="INSERT INTO ..." />
-            <marker date="1452761265150" expanded="true" signature="7188:7249" placeholder="SELECT `id` ..." />
-            <marker date="1452761265150" expanded="true" signature="7463:7556" placeholder="INSERT INTO ..." />
-            <marker date="1452761265150" expanded="true" signature="7741:7765" placeholder="SELECT * FRO..quiz_topic..." />
-            <marker date="1452761265150" expanded="true" signature="7974:8035" placeholder="SELECT `id` ..." />
-            <marker date="1452761265150" expanded="true" signature="8152:8186" placeholder="SELECT `id` ..." />
-            <marker date="1452761265150" expanded="true" signature="8152:8193" placeholder="SELECT `id` ..." />
-            <marker date="1452761265150" expanded="true" signature="8152:8216" placeholder="SELECT `id` ..." />
-            <marker date="1452761265150" expanded="true" signature="8278:8342" placeholder="INSERT INTO ..." />
-            <marker date="1452761265150" expanded="true" signature="8443:8474" placeholder="SELECT `quiz..." />
-            <marker date="1452761265150" expanded="true" signature="8621:8683" placeholder="SELECT COUNT..quiz_vote..." />
-            <marker date="1452761265150" expanded="true" signature="8621:8687" placeholder="SELECT COUNT..quiz_vote..." />
-            <marker date="1452761265150" expanded="true" signature="8621:8697" placeholder="SELECT COUNT..quiz_vote..." />
-            <marker date="1452761265150" expanded="true" signature="8621:8725" placeholder="SELECT COUNT..quiz_vote..." />
-            <marker date="1452761265150" expanded="true" signature="8815:8877" placeholder="SELECT COUNT..quiz_vote..." />
-            <marker date="1452761265150" expanded="true" signature="8815:8919" placeholder="SELECT COUNT..quiz_vote..." />
-            <marker date="1452761265150" expanded="true" signature="9009:9071" placeholder="SELECT COUNT..quiz_vote..." />
-            <marker date="1452761265150" expanded="true" signature="9009:9113" placeholder="SELECT COUNT..quiz_vote..." />
-            <marker date="1452761265150" expanded="true" signature="9203:9265" placeholder="SELECT COUNT..quiz_vote..." />
-            <marker date="1452761265150" expanded="true" signature="9203:9307" placeholder="SELECT COUNT..quiz_vote..." />
-            <marker date="1452761265150" expanded="true" signature="9455:9516" placeholder="SELECT `id` ..." />
-            <marker date="1452761265150" expanded="true" signature="9585:9632" placeholder="SELECT `quiz..." />
-            <marker date="1452761265150" expanded="true" signature="9585:9644" placeholder="SELECT `quiz..." />
+            <marker date="1452762407706" expanded="true" signature="-1:-1" placeholder="SELECT *, co..." />
+            <marker date="1452762407706" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..articles..." />
+            <marker date="1452762407706" expanded="true" signature="-1:-1" placeholder="SELECT count..." />
+            <marker date="1452762407706" expanded="true" signature="-1:-1" placeholder="SELECT count..." />
+            <marker date="1452762407706" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1452762407706" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1452762407706" expanded="true" signature="-1:-1" placeholder="UPDATE comme..." />
+            <marker date="1452762407706" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1452762407706" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1452762407706" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1452762407706" expanded="true" signature="-1:-1" placeholder="UPDATE messa..." />
+            <marker date="1452762407706" expanded="true" signature="-1:-1" placeholder="UPDATE artic..." />
+            <marker date="1452762407706" expanded="true" signature="-1:-1" placeholder="UPDATE artic..." />
+            <marker date="1452762407706" expanded="true" signature="-1:-1" placeholder="UPDATE conte..." />
+            <marker date="1452762407706" expanded="true" signature="-1:-1" placeholder="SELECT `text..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Model_main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-37.04762">
+          <caret line="77" column="40" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
+          <folding>
+            <marker date="1452689331160" expanded="true" signature="102:183" placeholder="SELECT `topi..." />
+            <marker date="1452689331160" expanded="true" signature="206:269" placeholder="SELECT `topi..." />
+            <marker date="1452689331160" expanded="true" signature="739:794" placeholder="SELECT `text..." />
+            <marker date="1452689331160" expanded="true" signature="1166:1428" placeholder="SELECT artic..articles..." />
+            <marker date="1452689331160" expanded="true" signature="1469:1754" placeholder="SELECT artic..articles..." />
+            <marker date="1452689331160" expanded="true" signature="1806:1945" placeholder="SELECT artic..articles..." />
+            <marker date="1452689331160" expanded="true" signature="2328:2498" placeholder="SELECT * FRO..comments..." />
+            <marker date="1452689331160" expanded="true" signature="2785:2846" placeholder="SELECT `id` ..." />
+            <marker date="1452689331160" expanded="true" signature="3034:3117" placeholder="INSERT INTO ..." />
+            <marker date="1452689331160" expanded="true" signature="3415:3470" placeholder="SELECT `text..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/controller_profile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.333334">
+        <state vertical-scroll-proportion="-19.547619">
           <caret line="102" column="35" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/models/Model_Profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.595238">
+          <caret line="240" column="13" selection-start-line="240" selection-start-column="13" selection-end-line="240" selection-end-column="13" />
+          <folding>
+            <marker date="1452762407736" expanded="true" signature="225:290" placeholder="SELECT `id`,..." />
+            <marker date="1452762407736" expanded="true" signature="494:546" placeholder="SELECT * FRO..user_info..." />
+            <marker date="1452762407736" expanded="true" signature="778:837" placeholder="SELECT * FRO..user_info..." />
+            <marker date="1452762407736" expanded="true" signature="1147:1239" placeholder="SELECT `id` ..." />
+            <marker date="1452762407736" expanded="true" signature="1369:1433" placeholder="INSERT INTO ..." />
+            <marker date="1452762407736" expanded="true" signature="1618:1679" placeholder="SELECT `id` ..." />
+            <marker date="1452762407736" expanded="true" signature="1730:1876" placeholder="SELECT * FRO..friends..." />
+            <marker date="1452762407736" expanded="true" signature="2120:2224" placeholder="SELECT * FRO..friends..." />
+            <marker date="1452762407736" expanded="true" signature="2460:2521" placeholder="SELECT `id` ..." />
+            <marker date="1452762407736" expanded="true" signature="2572:2654" placeholder="SELECT publi..user_info..." />
+            <marker date="1452762407736" expanded="true" signature="2840:2901" placeholder="SELECT `id` ..." />
+            <marker date="1452762407736" expanded="true" signature="2934:3001" placeholder="SELECT `user..." />
+            <marker date="1452762407736" expanded="true" signature="3130:3198" placeholder="SELECT `user..." />
+            <marker date="1452762407736" expanded="true" signature="3374:3492" placeholder="SELECT `name..." />
+            <marker date="1452762407736" expanded="true" signature="3834:3895" placeholder="SELECT `id` ..." />
+            <marker date="1452762407736" expanded="true" signature="3963:4042" placeholder="UPDATE users..." />
+            <marker date="1452762407736" expanded="true" signature="4167:4250" placeholder="UPDATE user_..." />
+            <marker date="1452762407736" expanded="true" signature="4331:4422" placeholder="UPDATE user_..." />
+            <marker date="1452762407736" expanded="true" signature="4500:4585" placeholder="UPDATE user_..." />
+            <marker date="1452762407736" expanded="true" signature="4663:4748" placeholder="UPDATE user_..." />
+            <marker date="1452762407736" expanded="true" signature="5046:5200" placeholder="UPDATE user_..." />
+            <marker date="1452762407736" expanded="true" signature="5331:5406" placeholder="UPDATE user_..." />
+            <marker date="1452762407736" expanded="true" signature="5558:5619" placeholder="SELECT `id` ..." />
+            <marker date="1452762407736" expanded="true" signature="5701:5844" placeholder="SELECT * FRO..mails..." />
+            <marker date="1452762407736" expanded="true" signature="5930:6072" placeholder="SELECT * FRO..mails..." />
+            <marker date="1452762407736" expanded="true" signature="6483:6544" placeholder="SELECT `id` ..." />
+            <marker date="1452762407736" expanded="true" signature="6637:6692" placeholder="SELECT `id` ..." />
+            <marker date="1452762407736" expanded="true" signature="6837:6948" placeholder="INSERT INTO ..." />
+            <marker date="1452762407736" expanded="true" signature="7188:7249" placeholder="SELECT `id` ..." />
+            <marker date="1452762407736" expanded="true" signature="7463:7556" placeholder="INSERT INTO ..." />
+            <marker date="1452762407736" expanded="true" signature="7741:7765" placeholder="SELECT * FRO..quiz_topic..." />
+            <marker date="1452762407736" expanded="true" signature="7974:8035" placeholder="SELECT `id` ..." />
+            <marker date="1452762407736" expanded="true" signature="8152:8216" placeholder="SELECT `id` ..." />
+            <marker date="1452762407736" expanded="true" signature="8278:8342" placeholder="INSERT INTO ..." />
+            <marker date="1452762407736" expanded="true" signature="8443:8474" placeholder="SELECT `quiz..." />
+            <marker date="1452762407736" expanded="true" signature="8621:8725" placeholder="SELECT COUNT..quiz_vote..." />
+            <marker date="1452762407736" expanded="true" signature="8815:8919" placeholder="SELECT COUNT..quiz_vote..." />
+            <marker date="1452762407736" expanded="true" signature="9009:9113" placeholder="SELECT COUNT..quiz_vote..." />
+            <marker date="1452762407736" expanded="true" signature="9203:9307" placeholder="SELECT COUNT..quiz_vote..." />
+            <marker date="1452762407736" expanded="true" signature="9455:9516" placeholder="SELECT `id` ..." />
+            <marker date="1452762407736" expanded="true" signature="9585:9648" placeholder="SELECT `quiz..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/quizes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9073806">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.7773556">
+          <caret line="46" column="62" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
           <folding>
-            <marker date="1452761798974" expanded="true" signature="2389:3014" placeholder="..." />
-            <marker date="1452761798974" expanded="true" signature="2389:3024" placeholder="..." />
-            <marker date="1452761798974" expanded="true" signature="2405:2508" placeholder="{...}" />
-            <marker date="1452761798974" expanded="true" signature="2522:2625" placeholder="{...}" />
-            <marker date="1452761798974" expanded="true" signature="2650:2763" placeholder="{...}" />
-            <marker date="1452761798974" expanded="true" signature="2772:2804" placeholder="{...}" />
-            <marker date="1452761798974" expanded="true" signature="2815:2925" placeholder="{...}" />
-            <marker date="1452761798974" expanded="true" signature="2936:3012" placeholder="{...}" />
+            <marker date="1452766883611" expanded="true" signature="2630:3304" placeholder="..." />
+            <marker date="1452766883611" expanded="true" signature="2687:2790" placeholder="{...}" />
+            <marker date="1452766883611" expanded="true" signature="2804:2907" placeholder="{...}" />
+            <marker date="1452766883611" expanded="true" signature="2932:3045" placeholder="{...}" />
+            <marker date="1452766883611" expanded="true" signature="3054:3086" placeholder="{...}" />
+            <marker date="1452766883611" expanded="true" signature="3097:3207" placeholder="{...}" />
+            <marker date="1452766883611" expanded="true" signature="3218:3294" placeholder="{...}" />
           </folding>
         </state>
       </provider>

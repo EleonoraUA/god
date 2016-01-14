@@ -256,7 +256,7 @@ class Model_Profile extends Model
         $result = array();
         $id_us = mysql_fetch_array(mysql_query("SELECT `id` FROM users WHERE name='" . $_SESSION['name'] . "'"));
         $id_us = $id_us['id'];
-        $quiz_ids = mysql_query("SELECT `quiz_id` FROM quiz_vote WHERE voter_id='".$id_us."'");
+        $quiz_ids = mysql_query("SELECT `quiz_id` FROM quiz_vote WHERE voter_id='" . $id_us . "'");
         while ($quiz_id = mysql_fetch_assoc($quiz_ids)) {
             $result[$quiz_id['quiz_id']] = true;
         }
